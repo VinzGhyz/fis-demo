@@ -1,0 +1,24 @@
+{
+  "name": "FIS_demo",
+  "description": "The admin microservice of FIS_demo",
+  "website": "http://www.forestadmin.com/lumber",
+  "repository": "https://github.com/ForestAdmin/lumber",
+  "env": {
+    "FOREST_AUTH_KEY": {
+      "description": "A random JWT signing key to protect your admin API",
+      "value": "f18a6e7a0b2cee09ab34f454f5f0a357f9eb492dc4cd7850bca6e908da506ccf690441f3987c3be7ca633c1cf8f6cca5"
+    },
+    "FOREST_SECRET_KEY": {
+      "description": "The Forest secret key",
+      "value": "87e5ef8be141516e859723f3f4928ac9091b274b8c2841916ad3f1bcef1bc7dc"
+    },
+    "DATABASE_URL": {
+      "description": "The remote database connection URL",
+      "value": "mysql://<user>:<password>@<host>:<port>/<databaseName>"
+    },
+    "SSL_DATABASE": {
+      "description": "Specify if a SSL database connection is required.",
+      "value": "true"
+    }
+  }
+}
